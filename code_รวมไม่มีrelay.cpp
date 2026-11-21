@@ -38,7 +38,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 
 // Google Apps Script URL
 const char* serverUrl =
-"https://script.google.com/macros/s/AKfycbzlQFWL8iaMYqgoSj2n7gRbKq2ODfi2hxeIM5ksJK718_t88qfq4_S6L1GKYCj3ZYF3/exec";
+"https://script.google.com/macros/s/AKfycbwAsg9cyE-qX98INyIKs9LH0bRYIt6oqNsW4obXDtApahIE3NOoLMFQ1qVXRpR4zaC0/exec";
 
 // Sensor ID
 const char* sensorID = "esp32_ph_01";

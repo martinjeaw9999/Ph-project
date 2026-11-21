@@ -6,7 +6,7 @@ const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 // 2. Replace with your server API endpoint (use http:// for local/IP testing)
-const char* serverUrl = "https://script.google.com/macros/s/AKfycbzlQFWL8iaMYqgoSj2n7gRbKq2ODfi2hxeIM5ksJK718_t88qfq4_S6L1GKYCj3ZYF3/exec";
+const char* serverUrl = "https://script.google.com/macros/s/AKfycbwAsg9cyE-qX98INyIKs9LH0bRYIt6oqNsW4obXDtApahIE3NOoLMFQ1qVXRpR4zaC0/exec";
 
 void setup() {
   Serial.begin(115200);
