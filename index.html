@@ -145,7 +145,7 @@
       btn.disabled = true;
       errorBox.style.display = "none";
       try {
-        const res = await fetch(API_URL);
+        const res = await fetch(API_URL); // fetch ของ java script มีหน้าที่ดึงข้อมูล
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
         if (data.status !== "success") throw new Error(data.message || "API returned an error");
